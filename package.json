@@ -1,6 +1,6 @@
 {
   "name": "jorgepeniaranda",
-  "version": "0.1.0",
+  "version": "latest",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

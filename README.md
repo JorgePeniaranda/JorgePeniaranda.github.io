@@ -12,7 +12,7 @@
 
 ## About The Project
 [![screenshot][product-screenshot]](https://jorgepeniaranda.me)
-Looking for a creative graphic designer? Check out my portfolio for unique designs that exceed expectations. I prioritize my client's needs and goals to create designs that leave a lasting impression. Let's collaborate on your next project and take your design to the next level.
+<p>Looking for a creative graphic designer? Check out my portfolio for unique designs that exceed expectations. I prioritize my client's needs and goals to create designs that leave a lasting impression. Let's collaborate on your next project and take your design to the next level.</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -48,7 +48,7 @@ You need the following programs before you start:
 
 ## Contact
 Jorge Peñaranda - [LinkedIn](https://www.linkedin.com/in/JorgePeniaranda/) - jorgep@gmail.com
-<p>Project Link: [https://github.com/JorgePeniaranda/JorgePeniaranda.github.io](https://github.com/JorgePeniaranda/JorgePeniaranda.github.io)</p>
+<p>Project Link: https://github.com/JorgePeniaranda/JorgePeniaranda.github.io</p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [product-screenshot]: screenshot.png
