@@ -1,14 +1,15 @@
-import {Main, Skills, About, Projects, Contact} from './sections/index';
+/* import {Main, Skills, About, Projects, Contact} from './sections/index'; */
 import './generalStyles/app.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">{
+      <p>asdasdasd</p>/* 
       <Main/>
       <Skills/>
       <About/>
       <Projects/>
-      <Contact/>
+      <Contact/> */}
     </div>
   );
 }
