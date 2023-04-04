@@ -1,15 +1,12 @@
 {
   "files": {
-    "main.css": "/JorgePeniaranda/JorgePeniaranda.github.io/static/css/main.41ab07fb.css",
-    "main.js": "/JorgePeniaranda/JorgePeniaranda.github.io/static/js/main.7b8d304f.js",
+    "main.js": "/JorgePeniaranda/JorgePeniaranda.github.io/static/js/main.a0a50d46.js",
     "static/js/787.54125c68.chunk.js": "/JorgePeniaranda/JorgePeniaranda.github.io/static/js/787.54125c68.chunk.js",
     "index.html": "/JorgePeniaranda/JorgePeniaranda.github.io/index.html",
-    "main.41ab07fb.css.map": "/JorgePeniaranda/JorgePeniaranda.github.io/static/css/main.41ab07fb.css.map",
-    "main.7b8d304f.js.map": "/JorgePeniaranda/JorgePeniaranda.github.io/static/js/main.7b8d304f.js.map",
+    "main.a0a50d46.js.map": "/JorgePeniaranda/JorgePeniaranda.github.io/static/js/main.a0a50d46.js.map",
     "787.54125c68.chunk.js.map": "/JorgePeniaranda/JorgePeniaranda.github.io/static/js/787.54125c68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41ab07fb.css",
-    "static/js/main.7b8d304f.js"
+    "static/js/main.a0a50d46.js"
   ]
 }
