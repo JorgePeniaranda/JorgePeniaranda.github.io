@@ -1,7 +1,9 @@
+import Nav from '../../components/navbar/nav'
+
 const main = () => {
     return (
-      <section className="sections bg-color-2">
-        <h1>Skills</h1>
+      <section className="sections bg-color-2" id='Skills'>
+        <Nav/>
       </section>
     );
   }
