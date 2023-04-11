@@ -1,25 +1,26 @@
 nav{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   user-select: none;
+  height: 25%;
+  padding: 0 6% 0 6%;
   img.logo{
-    width: 10%;
-    margin: 2% 0 0 5%;
+    height: 70%;
     pointer-events: none;
   }
   ul{
     display: flex;
-    justify-content: flex-end;
+    width: 50%;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
     list-style: none;
     white-space: nowrap;
-    gap: 15%;
-    margin: 2% 5% 0 0;
     li a{
       color: var(--font-color-light);
       font-family: mediumText;
-      font-size: 2.5vmin;
+      font-size: 3vmin;
       text-decoration: none;
     }
     
