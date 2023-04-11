@@ -1,17 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';/* 
-import App from './App'; */
+import ReactDOM from 'react-dom/client';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-/* 
+
 import './generalStyles/normalize.css';
 import './generalStyles/colors.css';
- */
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <p>pepe</p>
-    {/* 
-    <App /> */}
+    <App />
   </React.StrictMode>
 );
 

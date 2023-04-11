@@ -1,6 +1,6 @@
 {
   "name": "jorgepeniaranda",
-  "homepage": "https://github.com/JorgePeniaranda/JorgePeniaranda.github.io",
+  "homepage": "https://jorgepeniaranda.me/",
   "version": "latest",
   "private": true,
   "dependencies": {
@@ -39,7 +39,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
-    "node-sass": "^7.0.3"
+    "gh-pages": "^5.0.0"
   }
 }
