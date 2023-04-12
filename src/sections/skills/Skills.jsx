@@ -1,7 +1,7 @@
 import Nav from '../../components/navbar/nav'
 import Points from '../../components/points/points'
 
-const main = () => {
+const Skills = () => {
     return (
       <section className="sections bg-color-2" id='Skills'>
         <Nav/>
@@ -10,4 +10,4 @@ const main = () => {
     );
   }
   
-  export default main;
+  export default Skills;

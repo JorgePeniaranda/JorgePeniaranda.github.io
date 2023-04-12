@@ -1,6 +1,6 @@
 import './points.scss'
 
-const points = param => {
+const Points = param => {
     return (
       <div id='points' className={(param.darkMode) ? 'dark' : ''}>
         <div className="point" id={(param.step === 1) ? 'active' : ''}/>
@@ -16,4 +16,4 @@ const points = param => {
     );
   }
   
-  export default points;
+  export default Points;
