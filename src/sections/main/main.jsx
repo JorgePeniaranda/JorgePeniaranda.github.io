@@ -5,11 +5,7 @@ const main = () => {
     return (
       <section className="sections bg-color-1" id='Main'>
         <Nav/>
-        <p>asdasd</p>
-        <div className="container">
-        <p>aasdasdwadafvxsdsd</p>
-        </div>
-        <Points/>
+        <Points step={1}/>
       </section>
     );
   }
