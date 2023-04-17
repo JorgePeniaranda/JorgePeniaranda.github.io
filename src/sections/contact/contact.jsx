@@ -2,24 +2,19 @@ import Nav from '../../components/navbar/nav'
 import Points from '../../components/points/points'
 import $ from 'jquery';
 
-
-function asdqawdw() {
-  window.scroll({
-    top: 0, 
-    left: 0, 
-    behavior: 'smooth' 
-   });
-  console.log("Asdas");
-}
-
 const main = () => {
-    return (
-      <section className="sections bg-color-5" id='Contact'>
-        <Nav/>
-        <button onClick={asdqawdw}>asdas</button>
-        <Points step={5}/>
-      </section>
-    );
-  }
+  $('#asdawd').on('click', function(){
+    $(".sections").css("position", "relative");
+    $('#Skills').get(0).scrollIntoView();
+    $(".sections").css("position", "sticky").delay(200);
+  });
+  return (
+    <section className="sections bg-color-5" id='Contact'>
+      <Nav/>
+      <button id='asdawd'>asdas</button>
+      <Points step={5}/>
+    </section>
+  );
+}
   
-  export default main;
+export default main;
