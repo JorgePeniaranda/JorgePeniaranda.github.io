@@ -2,7 +2,7 @@ import './points.scss'
 
 const Points = param => {
     return (
-      <div id='points' className={(param.darkMode) ? 'dark' : ''}>
+      <div id='points' className={(param.lightMode) ? 'light' : ''}>
         <div className="point" id={(param.step === 1) ? 'active' : ''}/>
         <div className="line"/>
         <div className="point" id={(param.step === 2) ? 'active' : ''}/>
