@@ -21,6 +21,7 @@
                     width: 17%;
                     img{
                         width: 100%;
+                        height: 100%;
                     }
                 }
                 order: 1;
@@ -51,6 +52,7 @@
                         width: 15rem;
                         border: .1rem solid var(--black);
                         border-radius: 50%;
+                        pointer-events: none;
                     }
                 }
                 p{

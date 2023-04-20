@@ -13,6 +13,11 @@ div#points{
     &#active{
       background-color: var(--black);
     }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: transparent;
   }
   .line{
     background-color: var(--black);
