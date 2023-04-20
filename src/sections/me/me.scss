@@ -1,5 +1,5 @@
 @media screen and (min-width: 1024px){
-    section#Main{
+    section#Me{
         background-color: var(--white);
         div.container{
             width: 100%;
@@ -16,8 +16,11 @@
                 align-items: center;
                 justify-content: center;
                 gap: 1rem;
-                img{
+                a{
                     width: 20%;
+                    img{
+                        width: 100%;
+                    }
                 }
                 order: 1;
                 &::after{
