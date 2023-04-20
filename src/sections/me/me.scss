@@ -1,6 +1,7 @@
 @media screen and (min-width: 1024px){
     section#Me{
         background-color: var(--white);
+        user-select: none;
         div.container{
             width: 100%;
             height: calc(100% - 25%); // 100 - nav

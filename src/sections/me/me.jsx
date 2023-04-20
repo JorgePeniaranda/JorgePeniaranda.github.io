@@ -18,10 +18,10 @@ const Me = props => {
             <p>Hello, I’am <br/>Jorge<br/>Peñaranda<span>Web Developer</span></p>
           </div>
           <div id='media'>
-            <a href="https://www.linkedin.com/in/JorgePeniaranda/"><img src={Linkedin} alt="Linkedin_icon" /></a>
-            <a href="https://es.stackoverflow.com/users/323572/jorge-pe%c3%b1aranda"><img src={StackOverflow} alt="StackOverflow_icon" /></a>
-            <a href="https://instagram.com/yoperoconinstagr4m?igshid=ZDdkNTZiNTM="><img src={Instagram} alt="Instagram_icon" /></a>
-            <a href="https://github.com/jorgepeniaranda"><img src={Github} alt="Github_icon" /></a>
+            <a href="https://www.linkedin.com/in/JorgePeniaranda/" target='_blank' rel="noreferrer"><img src={Linkedin} alt="Linkedin_icon" /></a>
+            <a href="https://es.stackoverflow.com/users/323572/jorge-pe%c3%b1aranda" target='_blank' rel="noreferrer"><img src={StackOverflow} alt="StackOverflow_icon" /></a>
+            <a href="https://instagram.com/yoperoconinstagr4m?igshid=ZDdkNTZiNTM=" target='_blank' rel="noreferrer"><img src={Instagram} alt="Instagram_icon" /></a>
+            <a href="https://github.com/jorgepeniaranda" target='_blank' rel="noreferrer"><img src={Github} alt="Github_icon" /></a>
           </div>
           <Points href={props.index} step={1}/>
           <img src={Wave} alt="wave" id="wave"/>
