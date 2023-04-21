@@ -18,3 +18,9 @@
     src: url(../assets/fonts/Ubuntu-Bold.ttf);
     font-display: swap;
  }
+
+ h1{
+   font-size: 3rem;
+   font-family: regularText;
+   text-decoration: underline;
+ }

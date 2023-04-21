@@ -1,3 +1,69 @@
 section#About{
     background-color: var(--black);
+    display: grid;
+    grid-template-columns: 45% 45% 10%;
+    grid-template-rows: 20% 80%;
+    place-items: center;
+    h1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        user-select: none;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        color: var(--white);
+    }
+    div.cardList{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        place-items: center;
+        grid-template-columns: 50% 30%;
+        padding: 2%;
+        margin-left: 20%;
+        grid-template-rows: 50% 50%;
+    }
+    div.infoContainer{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: var(--white);
+        font-family: regularText;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        gap: 3rem;
+        tbody{
+            width: 90%;
+            tr{
+                td{
+                    color: var(--white);
+                }
+                td:first-child{
+                    color: var(--categoryColor);
+                    user-select: none;
+                }
+                td:nth-child(2){
+                    color: var(--primary);
+                    display: flex;
+                    margin: 0 3rem;
+                    user-select: none;
+                }
+            }
+        }
+        a{
+            color: var(--white);
+            text-decoration: none;
+            font-size: 1.4rem;
+            background-color: var(--primary);
+            padding: .5rem 1.7rem;
+            border-radius: 2rem;
+            margin-top: .5rem;
+            user-select: none;
+        }
+    }
 }

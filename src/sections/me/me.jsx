@@ -10,7 +10,7 @@ import Github from './assets/Github.png'
 
 const Me = props => {
     return (
-      <section className="sections bg-color-1" id='Me'>
+      <section className="sections" id='Me'>
         <Nav href={props.index}/>
         <div className='container'>
           <div id='presentation'>

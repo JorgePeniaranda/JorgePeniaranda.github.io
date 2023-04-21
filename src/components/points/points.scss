@@ -5,6 +5,7 @@ div#points{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  user-select: none;
   .point{
     border-radius: 50%;
     border: var(--black) solid .2vmin;
