@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e99774cd.css",
-    "main.js": "/static/js/main.79d89721.js",
+    "main.css": "/static/css/main.6c4a340d.css",
+    "main.js": "/static/js/main.11e635f5.js",
     "static/js/787.54125c68.chunk.js": "/static/js/787.54125c68.chunk.js",
     "static/media/Ubuntu-Light.ttf": "/static/media/Ubuntu-Light.0dd2d5986e2731a16ee7.ttf",
     "static/media/Ubuntu-Regular.ttf": "/static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
     "static/media/Ubuntu-Medium.ttf": "/static/media/Ubuntu-Medium.e37c5546eb1a6efc4818.ttf",
     "static/media/Ubuntu-Bold.ttf": "/static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
     "index.html": "/index.html",
-    "main.e99774cd.css.map": "/static/css/main.e99774cd.css.map",
-    "main.79d89721.js.map": "/static/js/main.79d89721.js.map",
+    "main.6c4a340d.css.map": "/static/css/main.6c4a340d.css.map",
+    "main.11e635f5.js.map": "/static/js/main.11e635f5.js.map",
     "787.54125c68.chunk.js.map": "/static/js/787.54125c68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e99774cd.css",
-    "static/js/main.79d89721.js"
+    "static/css/main.6c4a340d.css",
+    "static/js/main.11e635f5.js"
   ]
 }
