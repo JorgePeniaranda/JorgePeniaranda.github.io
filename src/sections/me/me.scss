@@ -79,6 +79,7 @@ section#Me{
 }
 @media screen and (min-width: 1024px){
     section#Me{
+        height: 100vh;
         div.container{
             height: calc(100% - 25%); // 100 - nav
             display: grid;

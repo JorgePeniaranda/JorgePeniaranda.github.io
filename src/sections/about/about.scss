@@ -17,7 +17,7 @@ section#About{
         color: var(--white);
     }
     div.infoContainer{
-        width: 90vw;
+        width: 80vw;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -28,8 +28,8 @@ section#About{
         font-size: 1.2rem;
         line-height: 2rem;
         gap: 3rem;
+        word-break: break-word;
         tbody{
-            width: 90%;
             tr{
                 vertical-align: top;
                 td{
@@ -41,11 +41,12 @@ section#About{
                     color: var(--categoryColor);
                     user-select: none;
                     text-align: justify;
+                    word-break: keep-all;
                 }
                 td:nth-child(2){
                     color: var(--primary);
                     display: flex;
-                    margin: 0 3rem;
+                    margin: 0 1rem;
                     user-select: none;
                 }
             }
