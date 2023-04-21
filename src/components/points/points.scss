@@ -19,6 +19,11 @@ div#points{
     justify-content: center;
     text-decoration: none;
     color: transparent;
+    transition: all .3s ease;
+    &:hover{
+      background-color: var(--primary);
+      border: none;
+    }
   }
   .line{
     background-color: var(--black);

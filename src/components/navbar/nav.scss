@@ -12,7 +12,7 @@ nav{
       width: 10rem;
       height: 10rem;
       pointer-events: none;
-      filter: invert(.9); //temporal
+      filter: invert(1); //temporal
     }
   }
   ul{
@@ -32,6 +32,24 @@ nav{
       font-family: mediumText;
       font-size: 3vmin;
       text-decoration: none;
+      display: inline-block;
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: var(--black);
+        transform-origin: bottom right;
+        transition: transform 0.2s ease-out;
+      }
+      &:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
       }
     }
   }

@@ -23,6 +23,9 @@
                         width: 100%;
                         height: 100%;
                     }
+                    &:hover img{
+                        transform: scale(1.2);
+                    }
                 }
                 order: 1;
                 &::after{
