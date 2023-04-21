@@ -2,7 +2,7 @@ div#points{
   height: fit-content;
   width: max-content;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   user-select: none;
@@ -22,13 +22,13 @@ div#points{
     transition: all .3s ease;
     &:hover{
       background-color: var(--primary);
-      border: none;
+      border: none !important;
     }
   }
   .line{
     background-color: var(--black);
-    width: 2%;
-    height: 1rem;
+    width: 1rem;
+    height: .05rem;
   }
 }
 div#points.light{
@@ -40,5 +40,14 @@ div#points.light{
   }
   .line{
     background-color: var(--white);
+  }
+}
+@media screen and (min-width: 1024px){
+  div#points{
+    flex-direction: column;
+    .line{
+      width: 2%;
+      height: 1rem;
+    }
   }
 }

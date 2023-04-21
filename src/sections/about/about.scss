@@ -1,9 +1,10 @@
 section#About{
     background-color: var(--black);
-    display: grid;
-    grid-template-columns: 45% 45% 10%;
-    grid-template-rows: 20% 80%;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
     h1{
         width: 100%;
         height: 100%;
@@ -15,22 +16,12 @@ section#About{
         grid-column-end: 4;
         color: var(--white);
     }
-    div.cardList{
-        width: 100%;
-        height: 100%;
-        display: grid;
-        place-items: center;
-        grid-template-columns: 50% 30%;
-        padding: 2%;
-        margin-left: 20%;
-        grid-template-rows: 50% 50%;
-    }
     div.infoContainer{
-        width: 90%;
+        width: 90vw;
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         justify-content: center;
         color: var(--white);
         font-family: regularText;
@@ -49,6 +40,7 @@ section#About{
                 td:first-child{
                     color: var(--categoryColor);
                     user-select: none;
+                    text-align: justify;
                 }
                 td:nth-child(2){
                     color: var(--primary);
@@ -66,7 +58,7 @@ section#About{
             border: none;
             padding: .5rem 1.7rem;
             border-radius: 2rem;
-            margin-top: .5rem;
+            margin: 0 auto;
             user-select: none;
             position: relative;
             &:hover {
@@ -105,6 +97,49 @@ section#About{
                 opacity: 1;
                 transform: scaleX(1) scaleY(1);
               }
+        }
+    }
+    div.cardList{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin: 3rem auto;
+        .cardContainer{
+            width: 70%;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    section#About{
+        display: grid;
+        grid-template-columns: 45% 45% 10%;
+        grid-template-rows: 20% 80%;
+        row-gap: 1rem;
+        place-items: center;
+        div.cardList{
+            display: grid;
+            place-items: center;
+            grid-template-columns: 50% 30%;
+            padding: 2%;
+            margin-left: 20%;
+            grid-template-rows: 50% 50%;
+            order: 1;
+            margin: 0 auto;
+            .cardContainer{
+                width: 12rem;
+            }
+        }
+        div.infoContainer{
+            width: 90%;
+            order: 2;
+        }
+        div#points{
+            order: 3;
         }
     }
 }
