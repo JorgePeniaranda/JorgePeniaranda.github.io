@@ -40,8 +40,11 @@ section#About{
         tbody{
             width: 90%;
             tr{
+                vertical-align: top;
                 td{
                     color: var(--white);
+                    align-items: start;
+                    justify-content: start;
                 }
                 td:first-child{
                     color: var(--categoryColor);
