@@ -9,8 +9,8 @@ div#points{
   .point{
     border-radius: 50%;
     border: var(--black) solid .2vmin;
-    width: 1rem;
-    height: 1rem;
+    width: 2rem;
+    height: 2rem;
     &.active{
       background-color: var(--black);
     }
@@ -27,7 +27,7 @@ div#points{
   }
   .line{
     background-color: var(--black);
-    width: 1rem;
+    width: 2rem;
     height: .05rem;
   }
 }
@@ -45,6 +45,10 @@ div#points.light{
 @media screen and (min-width: 1024px){
   div#points{
     flex-direction: column;
+    .point{
+      width: 1rem;
+      height: 1rem;
+    }
     .line{
       width: 2%;
       height: 1rem;
