@@ -2,21 +2,8 @@ import Points from '../../components/points/points'
 import './about.scss'
 import Card from './components/card/card'
 import { Fade, Flip } from 'react-reveal';
-import React, { useRef } from 'react';
-import { useInView } from 'react-intersection-observer';
-import Typed from 'react-typed';
 
 const About = props => {
-    const typedRefs = useRef([]);
-    const { ref } = useInView({
-      threshold: 0.5,
-      onChange: () => {
-        typedRefs.current.forEach(typedRef => {
-          typedRef.typed.reset();
-        });
-      },
-    });
-
     return (
       <section className="sections" id='About'>
         <h1>About me</h1>
@@ -26,101 +13,37 @@ const About = props => {
               <tr>
                 <Flip left><td>Full Name</td></Flip>
                 <td>:</td>
-                <td ref={ref}>
-                  <Typed
-                    strings={['Jorge Peñaranda']}
-                    typeSpeed={50}
-                    backSpeed={50}
-                    loop={false}
-                    showCursor={false}
-                    ref={el => (typedRefs.current[0] = el)}
-                  />
-                </td>
+                <Fade delay={400}><td>Jorge Peñaranda</td></Fade>
               </tr>
               <tr>
                 <Flip left><td>Age</td></Flip>
                 <td>:</td>
-                <td ref={ref}>
-                  <Typed
-                    strings={['17']}
-                    typeSpeed={50}
-                    backSpeed={50}
-                    loop={false}
-                    showCursor={false}
-                    ref={el => (typedRefs.current[1] = el)}
-                  />
-                </td>
+                <Fade delay={400}><td>17</td></Fade>
               </tr>
               <tr>
                 <Flip left><td>Birthday</td></Flip>
                 <td>:</td>
-                <td ref={ref}>
-                  <Typed
-                    strings={['May 31, 2005']}
-                    typeSpeed={50}
-                    backSpeed={50}
-                    loop={false}
-                    className="typed-text"
-                    showCursor={false}
-                    ref={el => (typedRefs.current[2] = el)}
-                  />
-                </td>
+                <Fade delay={400}><td>May 31, 2005</td></Fade>
               </tr>
               <tr>
                 <Flip left><td>Nationality</td></Flip>
                 <td>:</td>
-                <td ref={ref}>
-                  <Typed
-                    strings={['Argentine']}
-                    typeSpeed={50}
-                    backSpeed={50}
-                    loop={false}
-                    showCursor={false}
-                    ref={el => (typedRefs.current[3] = el)}
-                  />
-                </td>
+                <Fade delay={400}><td>Argentine</td></Fade>
               </tr>
               <tr>
                 <Flip left><td>Languages</td></Flip>
                 <td>:</td>
-                <td ref={ref}>
-                  <Typed
-                    strings={['Spanish, English']}
-                    typeSpeed={50}
-                    backSpeed={50}
-                    loop={false}
-                    showCursor={false}
-                    ref={el => (typedRefs.current[4] = el)}
-                  />
-                </td>
+                <Fade delay={400}><td>Spanish, English</td></Fade>
               </tr>
               <tr>
                 <Flip left><td>Education</td></Flip>
                 <td>:</td>
-                <td ref={ref}>
-                  <Typed
-                    strings={['Currently in high school tech program for computer science.']}
-                    typeSpeed={20}
-                    backSpeed={20}
-                    loop={false}
-                    showCursor={false}
-                    ref={el => (typedRefs.current[5] = el)}
-                  />
-                </td>
+                <Fade delay={400}><td>Currently in high school tech program for computer science</td></Fade>
               </tr>
               <tr>
                 <Flip left><td>Email</td></Flip>
                 <td>:</td>
-                <td ref={ref}>
-                  <Typed
-                    strings={['contacto@jorgepeniaranda.com']}
-                    typeSpeed={50}
-                    backSpeed={50}
-                    loop={false}
-                    showCursor={false}
-                    ref={el => (typedRefs.current[6] = el)}
-                  />
-                </td>
+                <Fade delay={400}><td>contacto@jorgepeniaranda.com</td></Fade>
               </tr>
             </tbody>
           </table>

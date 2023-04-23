@@ -1,14 +1,14 @@
-section#Me{
+#Me{
     background-color: var(--white);
     user-select: none;
-    div.container{
+    .container{
         width: 100%;
         height: fit-content;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        div#presentation{
+        #presentation{
             width: 100%;
             height: 100%;
             display: flex;
@@ -23,8 +23,8 @@ section#Me{
                 align-items: center;
                 justify-content: center;
                 img{
-                    height: 15rem;
-                    width: 15rem;
+                    height: 20rem;
+                    width: 20rem;
                     border: .1rem solid var(--black);
                     border-radius: 50%;
                     pointer-events: none;
@@ -47,7 +47,7 @@ section#Me{
                 }
             }
         }
-        div#media{
+        #media{
             width: 100%;
             height: 100%;
             display: flex;
@@ -67,7 +67,7 @@ section#Me{
                 }
             }
         }
-        div#wave{
+        #wave{
             width: 100%;
             height: 100%;
             display: flex;
@@ -80,21 +80,21 @@ section#Me{
                 height: 100%;
             }
         }
-        div#points{
-            margin: 2rem 0;
+        #points{
+            margin: 5rem 0 2rem;
         }
     }
 }
 @media screen and (min-width: 1024px){
-    section#Me{
+    #Me{
         height: 100vh;
-        div.container{
+        .container{
             height: calc(100% - 25%); // 100 - nav
             display: grid;
             grid-template-columns: 10% 80% 10%;
             grid-template-rows: 80% 20%;
             place-items: center;
-            div#media{
+            #media{
                 width: 100%;
                 display: flex;
                 flex-direction: column;
@@ -111,7 +111,7 @@ section#Me{
                     background-color: var(--black);
                 }
             }
-            div#presentation{
+            #presentation{
                 display: grid;
                 grid-template-columns: 50% 50%;
                 order: 2;
@@ -123,7 +123,7 @@ section#Me{
                     }
                 }
             }
-            div#points{
+            #points{
                 order: 3;
             }
         }

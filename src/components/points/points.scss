@@ -1,4 +1,4 @@
-div#points{
+#points{
   height: fit-content;
   width: max-content;
   display: flex;
@@ -31,7 +31,7 @@ div#points{
     height: .05rem;
   }
 }
-div#points.light{
+#points.light{
   .point{
     border: var(--white) solid .2vmin;
     &.active{
@@ -43,7 +43,7 @@ div#points.light{
   }
 }
 @media screen and (min-width: 1024px){
-  div#points{
+  #points{
     flex-direction: column;
     .point{
       width: 1rem;
