@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.7dd19ef1.css",
-    "main.js": "/static/js/main.77c80dad.js",
+    "main.css": "/static/css/main.18b196fa.css",
+    "main.js": "/static/js/main.7d178899.js",
     "static/js/787.54125c68.chunk.js": "/static/js/787.54125c68.chunk.js",
-    "static/media/Ubuntu-Light.ttf": "/static/media/Ubuntu-Light.0dd2d5986e2731a16ee7.ttf",
-    "static/media/Ubuntu-Regular.ttf": "/static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
-    "static/media/Ubuntu-Medium.ttf": "/static/media/Ubuntu-Medium.e37c5546eb1a6efc4818.ttf",
-    "static/media/Ubuntu-Bold.ttf": "/static/media/Ubuntu-Bold.fec2d0f1431a6114a6ce.ttf",
+    "static/media/logo.svg": "/static/media/logo.dc07b54055919284762deec52e3f2435.svg",
     "index.html": "/index.html",
-    "main.7dd19ef1.css.map": "/static/css/main.7dd19ef1.css.map",
-    "main.77c80dad.js.map": "/static/js/main.77c80dad.js.map",
+    "static/media/Instagram.svg": "/static/media/Instagram.6daf174b8140e638b24a8ba4d074b84d.svg",
+    "static/media/Github.svg": "/static/media/Github.bd6ba8e10433d2293bc62485e4b790b8.svg",
+    "static/media/StackOverflow.svg": "/static/media/StackOverflow.22f314764a6ffb281d1ce12df50e5007.svg",
+    "static/media/Linkedin.svg": "/static/media/Linkedin.753cf11f8dec61c1726df8c301faf1a4.svg",
+    "static/media/wave.svg": "/static/media/wave.91a1f49ebce4e1c7c34bed5102b359dc.svg",
+    "main.18b196fa.css.map": "/static/css/main.18b196fa.css.map",
+    "main.7d178899.js.map": "/static/js/main.7d178899.js.map",
     "787.54125c68.chunk.js.map": "/static/js/787.54125c68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7dd19ef1.css",
-    "static/js/main.77c80dad.js"
+    "static/css/main.18b196fa.css",
+    "static/js/main.7d178899.js"
   ]
 }
