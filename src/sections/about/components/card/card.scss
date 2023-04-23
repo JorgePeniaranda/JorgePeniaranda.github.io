@@ -16,7 +16,8 @@
         align-items: center;
         justify-content: center;
         font-size: 2.5rem;
-        font-family: boldText;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
         color: var(--white);
     }
     p{
@@ -24,7 +25,8 @@
         width: 100%;
         color: var(--primary);
         font-size: .8rem;
-        font-family: regularText;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
     }
 }
 @media screen and (min-width: 1024px){

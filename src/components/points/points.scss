@@ -11,7 +11,7 @@ div#points{
     border: var(--black) solid .2vmin;
     width: 1rem;
     height: 1rem;
-    &#active{
+    &.active{
       background-color: var(--black);
     }
     display: flex;
@@ -20,7 +20,7 @@ div#points{
     text-decoration: none;
     color: transparent;
     transition: all .3s ease;
-    &:hover{
+    &:not(.active):hover{
       background-color: var(--primary);
       border: none !important;
     }
@@ -34,7 +34,7 @@ div#points{
 div#points.light{
   .point{
     border: var(--white) solid .2vmin;
-    &#active{
+    &.active{
       background-color: var(--white);
     }
   }

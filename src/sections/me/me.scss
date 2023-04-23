@@ -33,7 +33,8 @@ section#Me{
             p{
                 width: 100%;
                 font-size: 3rem;
-                font-family: mediumText;
+                font-family: 'Ubuntu', sans-serif;
+                font-weight: 500;
                 color: var(--primary);
                 white-space: pre-wrap;
                 word-break: break-word;
@@ -65,12 +66,18 @@ section#Me{
                 }
             }
         }
-        img#wave{
+        div#wave{
             width: 100%;
-            height: 10vh;
+            height: 100%;
+            display: flex;
+            align-items: end;
             grid-column-start: 1;
             grid-column-end: 4;
             order: 4;
+            svg{
+                width: 100%;
+                height: 100%;
+            }
         }
         div#points{
             margin: 2rem 0;
@@ -117,12 +124,6 @@ section#Me{
             }
             div#points{
                 order: 3;
-            }
-            img#wave{
-                height: 100%;
-                grid-column-start: 1;
-                grid-column-end: 4;
-                order: 4;
             }
         }
     }

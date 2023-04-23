@@ -12,10 +12,10 @@ nav{
       width: 10rem;
       height: 10rem;
       pointer-events: none;
-      filter: invert(1); //temporal
     }
   }
   ul{
+    display: none !important; // temporal
     display: flex;
     width: 50%;
     height: 50%;
@@ -29,7 +29,8 @@ nav{
       align-items: center;
       a{
       color: var(--black);
-      font-family: mediumText;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 500;
       font-size: 3vmin;
       text-decoration: none;
       display: inline-block;
@@ -60,5 +61,13 @@ nav.light{
   }
   ul li a{
     color: var(--white);
+  }
+}
+
+// temporal
+
+@media screen and (min-width: 1024px){
+  nav ul {
+    display: flex !important; // temporal
   }
 }
