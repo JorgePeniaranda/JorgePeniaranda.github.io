@@ -1,10 +1,8 @@
-import {Me, Skills, About, Projects, Contact} from './sections/index';
+/* import {Me, Skills, About, Projects, Contact} from './sections/index'; */
+import {Me, About} from './sections/index';
 import './generalStyles/app.scss';
 
 function App() {
-  window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
-  }
   const index = ["#Me", "#About", "#Skills", "#Projects", "#Contact"];
   return (
     <div className="App">
