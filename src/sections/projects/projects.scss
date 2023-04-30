@@ -2,6 +2,7 @@
     background-color: var(--white);
     text-align: center;
     padding-bottom: 5rem;
+    user-select: none;
     h1{
         margin: 0 0 2rem;
     }
@@ -54,6 +55,7 @@
                     color: var(--black);
                     text-decoration: none;
                     transition: all ease 400ms;
+                    cursor: auto;
                     b{
                         font-size: 1.2rem;
                         color: var(--primary);
@@ -64,6 +66,7 @@
                     }
                     &:hover span, &:hover p{
                         color: -webkit-link;
+                        cursor: pointer;
                     }
                 }
             }
