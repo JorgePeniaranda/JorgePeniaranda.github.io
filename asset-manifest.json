@@ -1,21 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.74d436c3.css",
-    "main.js": "/static/js/main.e877e838.js",
+    "main.css": "/static/css/main.48ede9f9.css",
+    "main.js": "/static/js/main.eb4ad2b1.js",
     "static/js/787.54125c68.chunk.js": "/static/js/787.54125c68.chunk.js",
     "static/media/logo.svg": "/static/media/logo.dc07b54055919284762deec52e3f2435.svg",
     "index.html": "/index.html",
-    "static/media/Instagram.svg": "/static/media/Instagram.6daf174b8140e638b24a8ba4d074b84d.svg",
-    "static/media/Github.svg": "/static/media/Github.bd6ba8e10433d2293bc62485e4b790b8.svg",
-    "static/media/StackOverflow.svg": "/static/media/StackOverflow.22f314764a6ffb281d1ce12df50e5007.svg",
-    "static/media/Linkedin.svg": "/static/media/Linkedin.753cf11f8dec61c1726df8c301faf1a4.svg",
-    "static/media/wave.svg": "/static/media/wave.91a1f49ebce4e1c7c34bed5102b359dc.svg",
-    "main.74d436c3.css.map": "/static/css/main.74d436c3.css.map",
-    "main.e877e838.js.map": "/static/js/main.e877e838.js.map",
+    "static/media/JorgePeniaranda-CV.pdf": "/static/media/JorgePeniaranda-CV.d303c2ed6f656de6190a.pdf",
+    "main.48ede9f9.css.map": "/static/css/main.48ede9f9.css.map",
+    "main.eb4ad2b1.js.map": "/static/js/main.eb4ad2b1.js.map",
     "787.54125c68.chunk.js.map": "/static/js/787.54125c68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74d436c3.css",
-    "static/js/main.e877e838.js"
+    "static/css/main.48ede9f9.css",
+    "static/js/main.eb4ad2b1.js"
   ]
 }
