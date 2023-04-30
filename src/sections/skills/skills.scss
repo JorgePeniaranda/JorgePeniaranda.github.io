@@ -4,7 +4,6 @@
     background-color: var(--black);
     color: var(--white);
     user-select: none;
-    padding-bottom: 10rem;
     h1{
         margin: 7rem 0 3rem;
         text-align: center;
@@ -62,6 +61,15 @@
                     }
                 }
             }
+        }
+    }
+    svg{
+        width: 100%;
+        display: inline-block;
+        background-color: var(--white);
+        margin-top: 10rem;
+        path{
+            fill: var(--black);
         }
     }
 }

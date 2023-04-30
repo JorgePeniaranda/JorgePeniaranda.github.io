@@ -1,10 +1,10 @@
 import './card.scss'
-import { Fade } from 'react-reveal';
+import { Flip } from 'react-reveal';
 import CountUp from 'react-countup';
 
 const Card = props => {
     return (
-      <Fade left>
+      <Flip top>
         <div className="cardContainer">
           <span className='icon'>
             {props.icon}
@@ -12,7 +12,7 @@ const Card = props => {
           <CountUp end={props.number} startOnMount={false} enableScrollSpy scrollSpyOnce={false} suffix={(props.plus) ? "+" : ""}/>
           <p>{props.text}</p>
         </div>
-      </Fade>
+      </Flip>
     );
   }
   
