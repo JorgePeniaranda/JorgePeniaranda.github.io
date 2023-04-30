@@ -6,10 +6,10 @@ const Contact = props => {
     <section id='Contact'>
       <h1>Contact</h1>
       <div className="container">
-        <form>
-          <input type="text" placeholder='Your Name...' name="name" id="name" />
-          <input type="text" placeholder='Your Email...' name="mail" id="mail" />
-          <textarea placeholder='Your Message...' name="message" id="message" cols="30" rows="10" spellcheck="true"></textarea>
+        <form onsubmit="event.preventDefault();" method='get'>
+          <input type="text" placeholder='Your Name...' name="name" id="name" required/>
+          <input type="text" placeholder='Your Email...' name="mail" id="mail" required/>
+          <textarea placeholder='Your Message...' name="message" id="message" cols="30" rows="10" spellcheck="true" required></textarea>
           <input type="submit" />
         </form>
         <Points href={props.index} step={5}/>

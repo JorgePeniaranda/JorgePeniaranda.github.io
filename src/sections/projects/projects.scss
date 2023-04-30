@@ -1,14 +1,87 @@
 #Projects{
-    display: flex;
-    flex-direction: column;
-    height: 150vh;
-    align-items: end;
     background-color: var(--white);
+    text-align: center;
+    padding-bottom: 5rem;
     svg{
         width: 100%;
         display: inline-block;
         path{
             fill: var(--black);
+        }
+    }
+    .container{
+        display: grid;
+        place-items: center;
+        grid-template-columns: 90% 10%;
+        #timeLine{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            margin-left: 10%;
+            margin-top: 3rem;
+            #line{
+                width: .3rem;
+                height: 100%;
+                background-color: var(--black);
+                &::before{
+                    content: "";
+                    display: flex;
+                    position: relative;
+                    left: -0.6rem;
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    background-color: var(--black);
+                    border-radius: 50%;
+                }
+                &::after{
+                    content: "";
+                    display: flex;
+                    position: relative;
+                    left: -0.6rem;
+                    top: calc(100% - 1.5rem);
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    background-color: var(--black);
+                    border-radius: 50%;
+                }
+            }
+            .cardsContainer{
+                display: flex;
+                flex-direction: column;
+                gap: 18rem;
+                .card{
+                    display: flex;
+                    flex-direction: column;
+                    width: 30rem;
+                    height: 8rem;
+                    b{
+                        font-size: 1.2rem;
+                        color: var(--primary);
+                    }
+                    span{
+                        font-size: 1.1rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .left{
+                text-align: end;
+                margin-right: 2rem;
+                .card:first-child{
+                    margin-top: 10rem;
+                }
+            }
+            .right{
+                text-align: start;
+                margin-left: 2rem;
+                .card:first-child{
+                    margin-top: 23rem;
+                }
+                .card:last-child{
+                    margin-bottom: 5rem;
+                }
+            }
         }
     }
 }
