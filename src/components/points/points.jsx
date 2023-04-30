@@ -4,7 +4,7 @@ import './points.scss'
 const Points = param => {
     return (
       <Fade right>
-        <div id='points' className={(param.lightMode) ? 'light' : ''}>
+        <div className={((param.lightMode) ? 'light' : '') + " points"}>
           <a href={param.href[0]} aria-label={param.href[0]} className={((param.step === 1) ? 'active' : '') + " point"}>1</a>
           <div className="line"/>
           <a href={param.href[1]} aria-label={param.href[1]} className={((param.step === 2) ? 'active' : '') + " point"}>2</a>

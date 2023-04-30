@@ -33,10 +33,8 @@
             p{
                 width: 100%;
                 font-size: 3rem;
-                font-family: 'Ubuntu', sans-serif;
                 font-weight: 500;
-                /* color: var(--primary); */
-                color: #775303; // temporal
+                color: var(--primary);
                 white-space: pre-wrap;
                 word-break: break-word;
                 span{
@@ -58,9 +56,12 @@
             margin-top: 1rem;
             a{
                 width: 3rem;
-                img{
+                svg{
                     width: 100%;
                     height: 100%;
+                    path{
+                        fill: var(--black);
+                    }
                 }
                 &:hover img{
                     transform: scale(1.2);
@@ -78,9 +79,12 @@
             svg{
                 width: 100%;
                 height: 100%;
+                path{
+                    fill: var(--black);
+                }
             }
         }
-        #points{
+        .points{
             margin: 5rem 0 2rem;
         }
     }
@@ -123,7 +127,7 @@
                     }
                 }
             }
-            #points{
+            .points{
                 order: 3;
             }
         }

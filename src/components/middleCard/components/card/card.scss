@@ -1,0 +1,47 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 12rem;
+    height: 12rem;
+    user-select: none;
+    span.icon{
+        height: 40%;
+        width: 40%;
+        border-radius: 50%;
+        background-color: var(--white);
+        color: var(--black);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg{
+            width: 50%;
+            height: 50%;
+            color: var(--black);
+            path{
+                fill: var(--black);
+            }
+        }
+    }
+    span{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        color: var(--primary);
+    }
+    p{
+        height: 20%;
+        width: 100%;
+        color: var(--white);
+        font-size: .9rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+    }
+}

@@ -1,62 +1,53 @@
 import Points from '../../components/points/points'
 import './about.scss'
-import Card from './components/card/card'
-import { Fade, Flip } from 'react-reveal';
+import { Fade } from 'react-reveal'
+import CV from "../../assets/pdf/JorgePeniaranda-CV.pdf"
 
 const About = props => {
     return (
       <section className="sections" id='About'>
         <h1>About me</h1>
-        <div className="infoContainer">
-          <table>
-            <tbody>
-              <tr>
-                <Flip left><td>Full Name</td></Flip>
-                <td>:</td>
-                <Fade delay={400}><td>Jorge Peñaranda</td></Fade>
-              </tr>
-              <tr>
-                <Flip left><td>Age</td></Flip>
-                <td>:</td>
-                <Fade delay={400}><td>17</td></Fade>
-              </tr>
-              <tr>
-                <Flip left><td>Birthday</td></Flip>
-                <td>:</td>
-                <Fade delay={400}><td>May 31, 2005</td></Fade>
-              </tr>
-              <tr>
-                <Flip left><td>Nationality</td></Flip>
-                <td>:</td>
-                <Fade delay={400}><td>Argentine</td></Fade>
-              </tr>
-              <tr>
-                <Flip left><td>Languages</td></Flip>
-                <td>:</td>
-                <Fade delay={400}><td>Spanish, English</td></Fade>
-              </tr>
-              <tr>
-                <Flip left><td>Education</td></Flip>
-                <td>:</td>
-                <Fade delay={400}><td>Currently in high school tech program for computer science</td></Fade>
-              </tr>
-              <tr>
-                <Flip left><td>Email</td></Flip>
-                <td>:</td>
-                <Fade delay={400}><td>contacto@jorgepeniaranda.com</td></Fade>
-              </tr>
-            </tbody>
-          </table>
-          <Fade bottom>
-            <a href="https://linktr.ee/jorgepeniaranda" target='_blank' rel="noreferrer">More about me</a>
-          </Fade>
-        </div>
-        <div className='cardList'>
-          <Card number={3} plus={true} text="Years Experience"/>
-          <Card number={5} plus={true} text="Happy Clients"/>
-          <Card number={10} plus={true} text="Projects"/>
-          <Card number={72} text="Number of times I've forgotten a semicolon"/>
-        </div>
+        <Fade right>
+          <div className="infoContainer">
+            <p>Hi, I'm Jorge Peñaranda, a passionate web developer focused on creating innovative solutions for my clients. I love teamwork and constantly improving my programming skills by learning from others. I'm always exploring new technologies and tools to offer high-quality services.</p>
+            <table>
+              <tbody>
+                <tr>
+                  <td>Name</td>
+                  <td>:</td>
+                  <td>Jorge Peñaranda</td>
+                </tr>
+                <tr>
+                  <td>Email</td>
+                  <td>:</td>
+                  <td>contact@jorgepeniaranda.me</td>
+                </tr>
+                <tr>
+                  <td>Birthday</td>
+                  <td>:</td>
+                  <td>May 31, 2005</td>
+                </tr>
+                <tr>
+                  <td>Languages</td>
+                  <td>:</td>
+                  <td>Spanish, English</td>
+                </tr>
+                <tr>
+                  <td>Education</td>
+                  <td>:</td>
+                  <td>Currently in high school tech program for computer science</td>
+                </tr>
+              </tbody>
+            </table>
+            <div className="buttons">
+              <a id='more' href="https://linktr.ee/jorgepeniaranda" target='_blank' rel="noreferrer">More about me</a>
+              <a id='cv' href={CV} download target='_blank' rel="noreferrer">Download CV</a>
+            </div>
+          </div>
+        </Fade>
+        <Fade left>
+          <img src="https://i.pinimg.com/564x/5d/32/47/5d3247875e2ca9b0cb7c915172c4cc10.jpg" alt="Jorge Peñaranda" />
+        </Fade>
         <Points href={props.index} step={2} lightMode/>
       </section>
     );
