@@ -2,7 +2,6 @@ import Nav from '../../components/navbar/nav'
 import Points from '../../components/points/points'
 import './me.scss'
 /* import Profile from './assets/profilePhoto.png' */
-import Wave from './assets/wave.svg'
 import Linkedin from './assets/Linkedin.svg'
 import StackOverflow from './assets/StackOverflow.svg'
 import Instagram from './assets/Instagram.svg'
