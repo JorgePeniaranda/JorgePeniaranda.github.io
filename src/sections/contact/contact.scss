@@ -46,7 +46,6 @@
                     transition: 300ms all ease;
                     cursor: pointer;
                     &:hover{
-                        filter: invert(.2);
                         transform: scale(1.1);
                     }
                 }
