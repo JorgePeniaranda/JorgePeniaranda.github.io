@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e4ee322.css",
+    "main.css": "/static/css/main.73cedbbd.css",
     "main.js": "/static/js/main.d0d8a201.js",
     "static/js/787.54125c68.chunk.js": "/static/js/787.54125c68.chunk.js",
     "static/media/logo.svg": "/static/media/logo.dc07b54055919284762deec52e3f2435.svg",
     "index.html": "/index.html",
     "static/media/JorgePeniaranda-CV.pdf": "/static/media/JorgePeniaranda-CV.d303c2ed6f656de6190a.pdf",
-    "main.3e4ee322.css.map": "/static/css/main.3e4ee322.css.map",
+    "main.73cedbbd.css.map": "/static/css/main.73cedbbd.css.map",
     "main.d0d8a201.js.map": "/static/js/main.d0d8a201.js.map",
     "787.54125c68.chunk.js.map": "/static/js/787.54125c68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e4ee322.css",
+    "static/css/main.73cedbbd.css",
     "static/js/main.d0d8a201.js"
   ]
 }
