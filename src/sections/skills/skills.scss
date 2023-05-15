@@ -76,7 +76,6 @@
         display: inline-block;
         background-color: var(--white);
         margin-top: 10rem;
-        padding-bottom: 5rem;
         path{
             fill: var(--black);
         }
@@ -94,8 +93,5 @@
                 margin-top: unset;
             }
         }
-    }
-    svg{
-        padding-bottom: unset;
     }
 }
