@@ -1,63 +1,79 @@
 import Points from '../../components/points/points'
 import "./skills.scss"
 import ProgressBar from 'react-animated-progress-bar';
-import { Flip } from 'react-reveal'
+import { Fade } from 'react-reveal'
 
 const Skills = props => {
     return (
       <section id='Skills'>
         <h1>Skills</h1>
         <div className="container">
-          <Flip right>
-            <div className='endCont' id='frontEnd'>
+          <div className='endCont' id='frontEnd'>
+            <Fade top delay={100} duration={1500}>
               <h2>Front-End</h2>
+            </Fade>
+            <Fade top delay={100} duration={1500}>
               <div className="progressCont">
                 <span>HTML</span>
                 <span className='percentage'>70%</span>
                 <ProgressBar rect percentage="70" rectBorderRadius/>
               </div>
+            </Fade>
+            <Fade top delay={200} duration={1500}>
               <div className="progressCont">
                 <span>CSS</span>
                 <span className='percentage'>60%</span>
                 <ProgressBar rect percentage="60" rectBorderRadius/>
               </div>
+            </Fade>
+            <Fade top delay={300} duration={1500}>
               <div className="progressCont">
                 <span>JAVASCRIPT</span>
                 <span className='percentage'>80%</span>
                 <ProgressBar rect percentage="80" rectBorderRadius/>
               </div>
+            </Fade>
+            <Fade top delay={400} duration={1500}>
               <div className="progressCont">
                 <span>REACT</span>
                 <span className='percentage'>70%</span>
                 <ProgressBar rect percentage="70" rectBorderRadius/>
               </div>
-            </div>
-          </Flip>
-          <Flip left>
-            <div className='endCont' id='backEnd'>
+            </Fade>
+          </div>
+          <div className='endCont' id='backEnd'>
+            <Fade top delay={100} duration={1500}>
               <h2>Back-End</h2>
+            </Fade>
+            <Fade top delay={200} duration={1500}>
               <div className="progressCont">
                 <span>PHP</span>
                 <span className='percentage'>60%</span>
                 <ProgressBar rect percentage="60" rectBorderRadius/>
               </div>
+            </Fade>
+            <Fade top delay={300} duration={1500}>
               <div className="progressCont">
                 <span>PHYTON</span>
                 <span className='percentage'>30%</span>
                 <ProgressBar rect percentage="30" rectBorderRadius/>
               </div>
+            </Fade>
+            <Fade top delay={400} duration={1500}>
               <div className="progressCont">
                 <span>MYSQL</span>
                 <span className='percentage'>45%</span>
                 <ProgressBar rect percentage="45" rectBorderRadius/>
               </div>
+            </Fade>
+            <Fade top delay={500} duration={1500}>
               <div className="progressCont">
                 <span>LARAVEL</span>
                 <span className='percentage'>10%</span>
                 <ProgressBar rect percentage="10" rectBorderRadius/>
               </div>
-            </div>
-          </Flip>
+            </Fade>
+          </div>
           <Points href={props.index} step={3} lightMode/>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1440 320">

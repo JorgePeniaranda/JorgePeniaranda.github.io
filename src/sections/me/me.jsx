@@ -11,7 +11,8 @@ const Me = props => {
         <Nav href={props.index}/>
         <div className='container'>
           <div id='presentation'>
-            <Bounce top><span><img src="https://i.pinimg.com/564x/5d/32/47/5d3247875e2ca9b0cb7c915172c4cc10.jpg" alt="Jorge Peñaranda" /></span></Bounce>
+            {/* <Bounce top><span><img src={Profile} alt="Jorge Peñaranda" /></span></Bounce> */}
+            <Bounce top><span><img src="https://i.pinimg.com/564x/5d/32/47/5d3247875e2ca9b0cb7c915172c4cc10.jpg" alt="stock profile" /></span></Bounce>
             <Fade top><p>Hello, I’am <br/>Jorge<br/>Peñaranda<Pulse delay={700} duration={500}><span>Web Developer</span></Pulse></p></Fade>
           </div>
           <div id='media'>

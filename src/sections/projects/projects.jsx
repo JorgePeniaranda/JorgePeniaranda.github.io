@@ -41,7 +41,7 @@ const Projects = props => {
                 </a>
               </Slide>
             </div>
-          </div>
+          </div> {/* EL BOTON */}
           <Points href={props.index} step={4}/>
         </div>
       </section>

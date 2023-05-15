@@ -5,20 +5,20 @@
     user-select: none;
     h1{
         margin: 0 0 2rem;
+        color: var(--black);
     }
     .container{
         display: grid;
         place-items: center;
-        grid-template-columns: 90% 10%;
         #timeLine{
-            width: 100%;
+            width: 90%;
             height: 100%;
             display: flex;
             justify-content: center;
-            margin-left: 10%;
+            /* margin-left: 10%; */
             margin-top: 3rem;
             #line{
-                width: .3rem;
+                width: .3vw;
                 height: 100%;
                 background-color: var(--black);
                 &::before{
@@ -46,12 +46,13 @@
             .cardsContainer{
                 display: flex;
                 flex-direction: column;
+                width: calc(49.4vw - 2rem);
                 gap: 18rem;
                 .card{
                     display: flex;
                     flex-direction: column;
-                    width: 30rem;
-                    height: 8rem;
+                    width: 100%;
+                    min-height: 8rem;
                     color: var(--black);
                     text-decoration: none;
                     transition: all ease 400ms;
@@ -63,6 +64,10 @@
                     span{
                         font-size: 1.1rem;
                         font-weight: 600;
+                    }
+                    p{
+                        word-wrap: break-word;
+                        text-align: justify;
                     }
                     &:hover span, &:hover p{
                         color: -webkit-link;
@@ -87,6 +92,23 @@
                     margin-bottom: 5rem;
                 }
             }
+        }
+        .points{
+            margin-top: 10rem;
+        }
+    }
+}
+@media screen and (min-width: 1024px){
+    #Projects{
+        .container{
+            display: grid;
+            place-items: center;
+            grid-template-columns: 90% 10%;
+        }
+    }
+    .container{
+        #timeLine{
+            margin-left: 10%;
         }
     }
 }
