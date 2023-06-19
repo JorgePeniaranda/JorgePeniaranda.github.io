@@ -9,7 +9,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: end;
+        align-items: flex-end;
         user-select: none;
         grid-column-start: 1;
         grid-column-end: 4;
@@ -21,7 +21,7 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: flex-start;
         justify-content: center;
         color: var(--white);
         font-weight: 400;

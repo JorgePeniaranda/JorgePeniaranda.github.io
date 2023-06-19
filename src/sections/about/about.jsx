@@ -1,7 +1,7 @@
 import Points from '../../components/points/points'
 import './about.scss'
 import { Fade } from 'react-reveal'
-import CV from "../../assets/pdf/JorgePeniaranda-CV.pdf"
+import CV from "./assets/Jorge Peñaranda - Curriculum Vitae.pdf"
 
 const About = props => {
     return (

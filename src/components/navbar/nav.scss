@@ -10,9 +10,10 @@ nav{
   z-index: 100;
   #img{
     width: 50%;
-    img.logo{
+    .logo{
       width: 10rem;
       height: 10rem;
+      fill: var(--black);
       pointer-events: none;
     }
   }

@@ -8,7 +8,7 @@ const Contact = props => {
       <div className="container">
         <form onsubmit="event.preventDefault();" method='get'>
           <input type="text" placeholder='Your Name...' name="name" id="name" required/>
-          <input type="text" placeholder='Your Email...' name="mail" id="mail" required/>
+          <input type="email" placeholder='Your Email...' name="mail" id="mail" required/>
           <textarea placeholder='Your Message...' name="message" id="message" cols="30" rows="10" spellcheck="true" required></textarea>
           <input type="submit" />
         </form>

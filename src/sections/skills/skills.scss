@@ -29,7 +29,7 @@
                 align-items: start;
             }
             &#backEnd{
-                align-items: end;
+                align-items: flex-end;
             }
             .progressCont{
                 width: 100%;
@@ -39,7 +39,7 @@
                 justify-content: space-between;
                 span{
                     display: flex;
-                    align-items: end;
+                    align-items: flex-end;
                     text-transform: uppercase;
                     margin-bottom: 0.2rem;
                 }
