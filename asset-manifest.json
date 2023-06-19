@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9772cea4.css",
-    "main.js": "/static/js/main.3a02cd67.js",
+    "main.css": "/static/css/main.f5286d0c.css",
+    "main.js": "/static/js/main.155d4314.js",
     "static/js/787.54125c68.chunk.js": "/static/js/787.54125c68.chunk.js",
-    "static/media/Jorge Peñaranda - Curriculum Vitae.pdf": "/static/media/Jorge Peñaranda - Curriculum Vitae.af77b06e2eefe35daefe.pdf",
+    "static/media/Jorge Peñaranda - Curriculum Vitae.pdf": "/static/media/Jorge Peñaranda - Curriculum Vitae.b738b5e29d9aab3c8731.pdf",
     "index.html": "/index.html",
-    "main.9772cea4.css.map": "/static/css/main.9772cea4.css.map",
-    "main.3a02cd67.js.map": "/static/js/main.3a02cd67.js.map",
+    "main.f5286d0c.css.map": "/static/css/main.f5286d0c.css.map",
+    "main.155d4314.js.map": "/static/js/main.155d4314.js.map",
     "787.54125c68.chunk.js.map": "/static/js/787.54125c68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9772cea4.css",
-    "static/js/main.3a02cd67.js"
+    "static/css/main.f5286d0c.css",
+    "static/js/main.155d4314.js"
   ]
 }
