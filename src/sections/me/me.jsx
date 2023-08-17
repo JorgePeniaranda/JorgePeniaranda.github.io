@@ -24,7 +24,7 @@ const Me = props => {
               </a>
             </Flip>
             <Flip right delay={250}>
-              <a href="https://es.stackoverflow.com/users/323572/jorge-pe%c3%b1aranda" target='_blank' rel="noreferrer">
+              <a href="https://es.stackoverflow.com/users/323572/jorgepeniaranda" target='_blank' rel="noreferrer">
               <svg width="40" height="52" viewBox="0 0 40 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M29.2745 46.8731H3.7259L3.86014 29.7785L0.0212595 29.7421L0 51.0248H33.3187V29.8417H29.2745V46.8731Z" fill="#0A0A0A"/>
                 <path d="M6.2807 39.8488H26.2933V44.1055H6.2807V39.8488Z" fill="#0A0A0A"/>
@@ -37,7 +37,7 @@ const Me = props => {
               </a>
             </Flip>
             <Flip right delay={200}>
-              <a href="https://instagram.com/yoperoconinstagr4m?igshid=ZDdkNTZiNTM=" target='_blank' rel="noreferrer">
+              <a href="https://www.instagram.com/jorgepeniaranda/" target='_blank' rel="noreferrer">
               <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M29.9783 17.66C29.9783 23.1706 25.5111 27.6378 20.0006 27.6378C14.49 27.6378 10.0228 23.1706 10.0228 17.66C10.0228 16.1073 10.3878 14.6434 11.02 13.3334H0V36.6667C0 38.8056 1.75 40.5556 3.88889 40.5556H36.1111C38.25 40.5556 40 38.8056 40 36.6667V13.3334H28.9806C29.6133 14.6434 29.9783 16.1073 29.9783 17.66Z" fill="#0A0A0A"/>
                 <path d="M36.1111 0H3.88889C1.75 0 0 1.75 0 3.88889V11.6667H12.0361C13.8572 9.25056 16.7417 7.68222 20 7.68222C23.2583 7.68222 26.1428 9.25056 27.9639 11.6667H40V3.88889C40 1.75 38.25 0 36.1111 0ZM3.19778 9.84223H1.75V4.23389C1.75 3.25278 2.34778 2.41222 3.19833 2.055L3.19778 9.84223ZM5.57 9.84223H4.19833V1.87111H5.57V9.84223ZM7.94167 9.84223H6.57V1.87111H7.94167V9.84223ZM10.3117 4.23389V7.47945V9.84223H8.94167V1.87111H10.3117V4.23389ZM37.9728 7.47945C37.9728 8.785 36.915 9.84223 35.6111 9.84223H31.7728C30.4683 9.84223 29.4106 8.785 29.4106 7.47945V4.23389C29.4106 2.92833 30.4683 1.87111 31.7728 1.87111H35.6111C36.9156 1.87111 37.9728 2.92833 37.9728 4.23389V7.47945Z" fill="#0A0A0A"/>
